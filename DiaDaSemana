@@ -30,7 +30,7 @@ class Program
                 Console.WriteLine("Sábado");
                 break;  
             default: 
-                Console.WriteLine("Que semana são essas");
+                Console.WriteLine("Que semana é essa?");
                 break;
 
         }   
