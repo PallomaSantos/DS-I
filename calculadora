@@ -28,8 +28,15 @@ class Program
                 Console.WriteLine("O resultado é: " + multiplicacao);
                 break;
             case 4:
-                double divisao = (num1 / num2);
-                Console.WriteLine("O resultado é: " + divisao);
+                if (num2 == 0) {
+                    Console.WriteLine("O numero nao pode ser dividido por 0");
+                    
+                }
+                else {
+                        double divisao = (num1 / num2);
+                        Console.WriteLine("O resultado é: " + divisao);
+    
+                }
                 break;
             default:
                 Console.WriteLine("Nao funciona");
